@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aterrizate</title>
+
+    <!--Link de booststrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <!--link de bootstrap iconografía-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!--Mi Link-->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <header> <!--HEADER-->
+      
+              <!--MENU-->
+              <nav class="navbar navbar-expand-lg" width="40">
+                <div class="container-fluid">
+            
+
+              <a class="navbar-brand display-4" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-airplane-fill mt-3" viewBox="0 0 16 16">
+                  <path d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Z"/>
+                </svg> 
+                    Aterrizate
+              </a>
+         
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#desplegable"   a>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex flex-row-reverse" id="desplegable">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link active"  href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active"  href="mailto:aterrizate@gmail.com">Contacto</a>
+                </li>
+                             
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav> 
+              <!--carrusel-->
+        <div id="carrusel" class="carousel slide carousel-fade">
+            <div class="carousel-inner">
+    
+                <!--foto Playa-->
+              <div class="carousel-item active">
+                <img src="imagenes/playa.jpg" class="d-block w-100" alt="Playa">
+              </div>
+    
+              <!--foto montaña-->
+              <div class="carousel-item">
+                <img src="imagenes/montañas.jpg" class="d-block w-100" alt="Montaña">
+              </div>
+    
+              <!--foto ciudad-->
+              <div class="carousel-item">
+                <img src="imagenes/ciudad.jpg" class="d-block w-100" alt="Ciudad">
+              </div>
+    
+    
+            </div>
+            <!--boton 1-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+    
+            <!--boton 2-->
+            <button class="carousel-control-next" type="button" data-bs-target="#carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </header> <!--CIERRA HEADER-->
+
+    <main>
+
+        <!--titulo-->
+        <h1 class="text-center fw-bolder display-4">Disfruta de unas vacaciones unicas</h1>
+        <p class="fs-6 fw-light">Vos preocupate por viajar, nosotros nos ocupamos del resto</p>
+        <!--cierra titulo-->
+
+        <!--tres fotos juntas-->
+        <div class="container text-center col-md">
+            <div class="row align-items-start">
+             
+             <!--paquete 1-->
+                <div class="col-md">
+                <h6 class="fw-semibold">Paquete Playa</h6>
+                <p>Disfruta de las playas con el agua más transparente, la arena blanca y mucho sol</p>
+                
+                </div>
+                
+              <!--paquete 2-->
+              <div class="col-md">
+                <h6 class="fw-semibold">Paquete Monataña</h6>
+                <p>Las mejores vistas las encontras en las monatañas, donde vas a poder hacer una infinidad de deportes</p>
+              </div>
+
+              <!--paquete 3-->
+              <div class="col-md">
+                <h6 class="fw-semibold">Paquete Ciudad</h6>
+                <p>Conoce las ciudades más turísticas, donde vas a poder ver los edificios más altos y disfrutar de nuevas culturas</p>
+              </div>
+            </div>
+          </div>
+
+          <!--foto con texto al lado-->
+            
+            <div class="row justify-content-evenly container-fluid">
+
+              <!--foto-->
+              <div class="col-4">
+                <img src="imagenes/hotel.jpg" alt="hotel" class="img-fluid rounded-5">
+               </div>
+
+               
+              <!--texto-->
+              <div class="col-4">
+                <h2 class="fw-bolder">Conoce nuestros mejores hoteles</h2>
+                <p>Aterrizate tiene convenios con hoteles a lo largo de todo el mundo. Conoce las diferentes ofertas de hospedaje dentro de los distintos destinos.</p>
+
+                <!--empieza MODAL-->
+
+               <!-- boton-->
+<button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Más información
+</button>
+
+
+<!-- Modal --> 
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <p class="modal-title fs-5" id="exampleModalLabel">Si quiere recibir mas informacion sobre los hoteles complete el siguiente formulario</p>
+        <!--boton de cruz de cerrar-->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+      <!--aca estan los dos botones cuando dentro del modal-->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+      
+    </div> 
+    <!--formulario-->
+    <form>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text"></div>
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Email</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3">
+        <label for="disabledTextInput" class="form-label">Comentarios</label>
+        <input type="text" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Quiero recibir información</label>
+      </div>
+      <button type="submit" class="btn btn-secondary">Guardar</button>
+    </form>
+  </div>
+</div>
+</div>
+
+    </main> <!--cierra el MAIN-->
+
+    <footer>
+      <article>
+   <h2 class="text-center fw-bolder">Conoce nuestros vuelos</h2>
+   <p class="text-center">Aterrizate ofrece una gran oferta de vuelos en distintos aeropuertos al rededor del mundo. </p>
+  </article>
+
+  <section>
+    <div class="row justify-content-evenly container-fluid">
+      <div class="col-4">
+        <img src="imagenes/vuelo.jpg" alt="vuelo" class="img-fluid rounded-end-5">
+      </div>
+      <div class="col-4">
+        <img src="imagenes/aeropuerto.jpg" alt="aeropuerto" class="img-fluid rounded-start-5">
+      </div>
+    </div>
+  </div>
+  </section>
+  
+  
+  <article>
+    <div></div>
+  </article>
+    </footer>
+</body>
+</html>
